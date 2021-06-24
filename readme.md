@@ -7,7 +7,7 @@ steps-
 2. given .env.example file create a .env file using that
 3. create an empty database in mySql
 4. add that database in .env file in DB_NAME with your mysql password in DB_password with root as user
-5. open cmd in the installed folder
+5. open cmd in the installed folder then type the following commands 
 6. php composer install
 7. php artisan migrate
 8. php artisan: db seed
