@@ -20,7 +20,7 @@ class CreateStudentInfosTable extends Migration
           $table->string('version');
           $table->string('group');
           $table->dateTime('birthday');
-        //   $table->string('religion');
+          $table->string('religion');
           $table->string('father_name');
           $table->string('father_phone_number');
           $table->string('father_national_id');
