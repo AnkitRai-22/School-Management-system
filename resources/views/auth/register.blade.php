@@ -277,13 +277,13 @@
                              </div>
                          </div> 
 
-                        <!-- <div class="form-group{{ $errors->has('religion') ? ' has-error' : '' }}">
+                        <div class="form-group{{ $errors->has('religion') ? ' has-error' : '' }}">
                             <label for="religion" class="col-md-4 control-label">@lang('Religion')</label>
 
                             <div class="col-md-6">
                                 <select id="religion" class="form-control" name="religion">
-                                    <option selected="selected">@lang('Islam')</option>
-                                    <option>@lang('Hinduism')</option>
+                                    <option selected="selected">@lang('Hinduism')</option>
+                                    <option>@lang('Islam')</option>
                                     <option>@lang('Christianism')</option>
                                     <option>@lang('Buddhism')</option>
 									<option>@lang('Catholic')</option>
@@ -296,7 +296,7 @@
                                 </span>
                                 @endif 
                              </div>
-                         </div> -->
+                         </div> 
 
                         <div class="form-group{{ $errors->has('address') ? ' has-error' : '' }}">
                             <label for="address" class="col-md-4 control-label">* @lang('address')</label>
